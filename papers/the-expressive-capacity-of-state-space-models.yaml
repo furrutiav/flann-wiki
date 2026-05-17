@@ -1,0 +1,39 @@
+title: "The Expressive Capacity of State Space Models: A Formal Language Perspective"
+authors:
+  - "Yash Sarrof"
+  - "Yana Veitsman"
+  - "Michael Hahn"
+venue: "Advances in Neural Information Processing Systems"
+year: 2024
+urls:
+  abstract: "https://papers.neurips.cc/paper_files/paper/2024/hash/485e0981e81766248b61fd1ec43c118f-Abstract-Conference.html"
+  pdf: "https://papers.neurips.cc/paper_files/paper/2024/file/485e0981e81766248b61fd1ec43c118f-Paper-Conference.pdf"
+abstract: >-
+  Recently, recurrent models based on linear state space models have shown
+  promising performance in language modeling, competitive with transformers.
+  However, there is little understanding of the in-principle abilities of
+  such models, which could provide useful guidance to the search for better
+  language model architectures. We present a comprehensive theoretical study
+  of the capacity of such state space models as it compares to that of
+  transformers and traditional RNNs. We find that state space models and
+  transformers have overlapping but distinct strengths. In star-free state
+  tracking, state space models implement length-generalizing solutions to
+  problems that transformers struggle to represent exactly. They can also
+  model bounded hierarchical structure with optimal memory even without
+  simulating a stack. On the other hand, we identify a design choice in
+  current state space models that limits their expressive power. We discuss
+  implications for state space model and language model research, and verify
+  results empirically on a recent state space model, Mamba.
+summary: >-
+  This paper analyzes linear state space models through formal language theory,
+  comparing their capabilities with transformers and traditional RNNs. It shows
+  that SSMs and transformers have overlapping but distinct strengths, including
+  cases where SSMs length-generalize on state-tracking problems that are hard for
+  transformers, while also identifying design choices that limit SSM expressivity.
+tags:
+  - "state-space-models"
+  - "formal-languages"
+  - "expressivity"
+  - "length-generalization"
+  - "Mamba"
+

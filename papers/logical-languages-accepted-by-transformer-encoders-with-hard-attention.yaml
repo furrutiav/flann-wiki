@@ -1,0 +1,41 @@
+title: "Logical Languages Accepted by Transformer Encoders with Hard Attention"
+authors:
+  - "Pablo Barcelo"
+  - "Alexander Kozachinskiy"
+  - "Anthony Widjaja Lin"
+  - "Vladimir Podolskii"
+venue: "International Conference on Learning Representations"
+year: 2024
+urls:
+  abstract: "https://proceedings.iclr.cc/paper_files/paper/2024/hash/5f0fdc1acd47431f7f3bb8ee85598cef-Abstract-Conference.html"
+  pdf: "https://proceedings.iclr.cc/paper_files/paper/2024/file/5f0fdc1acd47431f7f3bb8ee85598cef-Paper-Conference.pdf"
+  arxiv: "https://arxiv.org/abs/2310.03817"
+abstract: >-
+  We contribute to the study of formal languages that can be recognized by
+  transformer encoders. We focus on two self-attention mechanisms: (1) UHAT
+  (Unique Hard Attention Transformers) and (2) AHAT (Average Hard Attention
+  Transformers). UHAT encoders are known to recognize only languages inside the
+  circuit complexity class AC0, i.e., accepted by a family of poly-sized and
+  depth-bounded boolean circuits with unbounded fan-ins. On the other hand, AHAT
+  encoders can recognize languages outside AC0, but their expressive power still
+  lies within the bigger circuit complexity class TC0, i.e., AC0-circuits
+  extended by majority gates. We first show a negative result that there is an
+  AC0-language that cannot be recognized by an UHAT encoder. On the positive
+  side, we show that UHAT encoders can recognize a rich fragment of AC0-languages,
+  namely, all languages definable in first-order logic with arbitrary unary
+  numerical predicates. This logic includes, for example, all regular languages
+  from AC0. We then show that AHAT encoders can recognize all languages of our
+  logic even when we enrich it with counting terms. Using these results, we
+  obtain a characterization of which counting properties are expressible by UHAT
+  and AHAT, in relation to regular languages.
+summary: >-
+  This paper studies formal languages accepted by transformer encoders with
+  unique hard attention and average hard attention. It relates these models to
+  logical language classes, proving limitations for UHAT and richer counting
+  abilities for AHAT while keeping the analysis within circuit-complexity bounds.
+tags:
+  - "transformers"
+  - "hard-attention"
+  - "logic"
+  - "formal-languages"
+  - "expressivity"

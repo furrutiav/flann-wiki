@@ -1,0 +1,38 @@
+title: "Transformers Can Represent n-gram Language Models"
+authors:
+  - "Anej Svete"
+  - "Ryan Cotterell"
+venue: "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics"
+year: 2024
+pages: "6845-6881"
+urls:
+  abstract: "https://aclanthology.org/2024.naacl-long.381/"
+  pdf: "https://aclanthology.org/2024.naacl-long.381.pdf"
+  doi: "https://doi.org/10.18653/v1/2024.naacl-long.381"
+abstract: >-
+  Plenty of existing work has analyzed the abilities of the transformer
+  architecture by describing its representational capacity with formal models
+  of computation. However, the focus so far has been on analyzing the
+  architecture in terms of language acceptance. We contend that this is an
+  ill-suited problem in the study of language models, which are
+  definitionally probability distributions over strings. In this paper, we
+  focus on the relationship between transformer LMs and n-gram LMs, a simple
+  and historically relevant class of language models. We show that
+  transformer LMs using the hard or sparse attention mechanisms can exactly
+  represent any n-gram LM, giving us a concrete lower bound on their
+  probabilistic representational capacity. This provides a first step towards
+  understanding the mechanisms that transformer LMs can use to represent
+  probability distributions over strings.
+summary: >-
+  This paper argues that language models should be analyzed as probability
+  distributions over strings rather than only as recognizers. It proves that
+  transformer language models with hard or sparse attention can exactly represent
+  any n-gram language model, giving a concrete lower bound on probabilistic
+  representational capacity.
+tags:
+  - "transformers"
+  - "language-models"
+  - "n-gram-models"
+  - "probabilistic-models"
+  - "expressivity"
+

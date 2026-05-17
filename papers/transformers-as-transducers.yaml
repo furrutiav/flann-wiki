@@ -1,0 +1,42 @@
+title: "Transformers as Transducers"
+authors:
+  - "Lena Strobl"
+  - "Dana Angluin"
+  - "David Chiang"
+  - "Jonathan Rawski"
+  - "Ashish Sabharwal"
+venue: "Transactions of the Association for Computational Linguistics"
+year: 2025
+volume: 13
+pages: "200-219"
+urls:
+  abstract: "https://aclanthology.org/2025.tacl-1.9/"
+  pdf: "https://aclanthology.org/2025.tacl-1.9.pdf"
+  arxiv: "https://arxiv.org/abs/2404.02040"
+  doi: "https://doi.org/10.1162/tacl_a_00736"
+abstract: >-
+  We study the sequence-to-sequence mapping capacity of transformers by relating
+  them to finite transducers, and find that they can express surprisingly large
+  classes of (total functional) transductions. We do so using variants of RASP, a
+  programming language designed to help people "think like transformers," as an
+  intermediate representation. We extend the existing Boolean variant B-RASP to
+  sequence-to-sequence transductions and show that it computes exactly the
+  first-order rational transductions (such as string rotation). Then, we
+  introduce two new extensions. B-RASP[pos] enables calculations on positions
+  (such as copying the first half of a string) and contains all first-order
+  regular transductions. S-RASP adds prefix sum, which enables additional
+  arithmetic operations (such as squaring a string) and contains all first-order
+  polyregular transductions. Finally, we show that masked average-hard attention
+  transformers can simulate S-RASP.
+summary: >-
+  This paper studies transformers as sequence-to-sequence transducers rather than
+  only as language recognizers. It extends Boolean RASP to transductions and
+  connects transformer variants to first-order rational, regular, and polyregular
+  transductions. The result broadens FLaNN-style analysis from language
+  membership to string-to-string computation.
+tags:
+  - "transformers"
+  - "transducers"
+  - "RASP"
+  - "formal-languages"
+  - "expressivity"

@@ -1,0 +1,40 @@
+title: "Attention is Turing-Complete"
+authors:
+  - "Jorge Perez"
+  - "Pablo Barcelo"
+  - "Javier Marinkovic"
+venue: "Journal of Machine Learning Research"
+year: 2021
+volume: 22
+issue: 75
+pages: "1-35"
+urls:
+  abstract: "https://www.jmlr.org/papers/v22/20-302.html"
+  pdf: "https://www.jmlr.org/papers/volume22/20-302/20-302.pdf"
+  bibtex: "https://www.jmlr.org/papers/v22/20-302.bib"
+abstract: >-
+  Alternatives to recurrent neural networks, in particular, architectures
+  based on self-attention, are gaining momentum for processing input
+  sequences. In spite of their relevance, the computational properties of
+  such networks have not yet been fully explored. We study the computational
+  power of the Transformer, one of the most paradigmatic architectures
+  exemplifying self-attention. We show that the Transformer with
+  hard-attention is Turing complete exclusively based on their capacity to
+  compute and access internal dense representations of the data. Our study
+  also reveals some minimal sets of elements needed to obtain this
+  completeness result.
+summary: >-
+  Alternatives to recurrent neural networks, in particular, architectures based
+  on self-attention, are gaining momentum for processing input sequences. In
+  spite of their relevance, the computational properties of such networks have
+  not yet been fully explored. The paper studies the computational power of the
+  Transformer, one of the most paradigmatic architectures exemplifying
+  self-attention. It shows that the Transformer with hard-attention is Turing
+  complete exclusively based on its capacity to compute and access internal dense
+  representations of the data, and identifies minimal sets of elements needed to
+  obtain this completeness result.
+tags:
+  - "transformers"
+  - "self-attention"
+  - "turing-completeness"
+  - "theory"

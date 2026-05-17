@@ -1,0 +1,42 @@
+title: "A Formal Hierarchy of RNN Architectures"
+authors:
+  - "William Merrill"
+  - "Gail Weiss"
+  - "Yoav Goldberg"
+  - "Roy Schwartz"
+  - "Noah A. Smith"
+  - "Eran Yahav"
+venue: "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics"
+year: 2020
+pages: "443-459"
+urls:
+  abstract: "https://aclanthology.org/2020.acl-main.43/"
+  pdf: "https://aclanthology.org/2020.acl-main.43.pdf"
+  doi: "https://doi.org/10.18653/v1/2020.acl-main.43"
+abstract: >-
+  We develop a formal hierarchy of the expressive capacity of RNN architectures.
+  The hierarchy is based on two formal properties: space complexity, which
+  measures the RNN's memory, and rational recurrence, defined as whether the
+  recurrent update can be described by a weighted finite-state machine. We place
+  several RNN variants within this hierarchy. For example, we prove the LSTM is
+  not rational, which formally separates it from the related QRNN (Bradbury et
+  al., 2016). We also show how these models' expressive capacity is expanded by
+  stacking multiple layers or composing them with different pooling functions.
+  Our results build on the theory of "saturated" RNNs (Merrill, 2019). While
+  formally extending these findings to unsaturated RNNs is left to future work,
+  we hypothesize that the practical learnable capacity of unsaturated RNNs obeys
+  a similar hierarchy. We provide empirical results to support this conjecture.
+  Experimental findings from training unsaturated networks on formal languages
+  support this conjecture.
+summary: >-
+  The paper proposes a formal hierarchy for RNN architectures based on memory
+  capacity and rational recurrence, then places common recurrent models inside
+  that hierarchy. It separates LSTMs from more finite-state-like architectures
+  and supports the theory with formal-language experiments, making it useful for
+  comparing expressivity and learnability across recurrent models.
+tags:
+  - "rnn"
+  - "lstm"
+  - "formal-languages"
+  - "expressivity"
+  - "automata"

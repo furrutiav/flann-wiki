@@ -1,0 +1,41 @@
+title: "The Parallelism Tradeoff: Limitations of Log-Precision Transformers"
+authors:
+  - "William Merrill"
+  - "Ashish Sabharwal"
+venue: "Transactions of the Association for Computational Linguistics"
+year: 2023
+volume: 11
+pages: "531-545"
+urls:
+  abstract: "https://aclanthology.org/2023.tacl-1.31/"
+  pdf: "https://aclanthology.org/2023.tacl-1.31.pdf"
+  doi: "https://doi.org/10.1162/tacl_a_00562"
+abstract: >-
+  Despite their omnipresence in modern NLP, characterizing the computational
+  power of transformer neural nets remains an interesting open question. We
+  prove that transformers whose arithmetic precision is logarithmic in the
+  number of input tokens (and whose feedforward nets are computable using space
+  linear in their input) can be simulated by constant-depth logspace-uniform
+  threshold circuits. This provides insight on the power of transformers using
+  known results in complexity theory. For example, if L is not equal to P (i.e.,
+  not all poly-time problems can be solved using logarithmic space), then
+  transformers cannot even accurately solve linear equalities or check membership
+  in an arbitrary context-free grammar with empty productions. Our result
+  intuitively emerges from the transformer architecture's high parallelizability.
+  We thus speculatively introduce the idea of a fundamental parallelism tradeoff:
+  any model architecture as parallelizable as the transformer will obey
+  limitations similar to it. Since parallelism is key to training models at
+  massive scale, this suggests a potential inherent weakness of the scaling
+  paradigm.
+summary: >-
+  This work proves that log-precision transformers with suitable feedforward
+  restrictions can be simulated by constant-depth logspace-uniform threshold
+  circuits. It frames transformer limitations as a consequence of high
+  parallelizability, suggesting a tradeoff between scalable parallel training and
+  certain forms of sequential computation.
+tags:
+  - "transformers"
+  - "parallelism"
+  - "log-precision"
+  - "circuit-complexity"
+  - "limitations"

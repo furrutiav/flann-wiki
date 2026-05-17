@@ -1,0 +1,40 @@
+title: "Recurrent Neural Language Models as Probabilistic Finite-state Automata"
+authors:
+  - "Anej Svete"
+  - "Ryan Cotterell"
+venue: "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing"
+year: 2023
+pages: "8069-8086"
+urls:
+  abstract: "https://aclanthology.org/2023.emnlp-main.502/"
+  pdf: "https://aclanthology.org/2023.emnlp-main.502.pdf"
+  doi: "https://doi.org/10.18653/v1/2023.emnlp-main.502"
+abstract: >-
+  Studying language models (LMs) in terms of well-understood formalisms allows
+  us to precisely characterize their abilities and limitations. Previous work has
+  investigated the expressive power of recurrent neural network (RNN) LMs in
+  terms of their capacity to recognize unweighted formal languages. However, LMs
+  do not describe unweighted formal languages; rather, they define probability
+  distributions over strings. In this work, we study what classes of such
+  probability distributions RNN LMs can represent, which allows us to make more
+  direct statements about their capabilities. We show that simple RNNs are
+  equivalent to a subclass of probabilistic finite-state automata, and can thus
+  model a strict subset of probability distributions expressible by finite-state
+  models. Furthermore, we study the space complexity of representing finite-state
+  LMs with RNNs. We show that, to represent an arbitrary deterministic
+  finite-state LM with N states over an alphabet Sigma, an RNN requires Omega(N
+  |Sigma|) neurons. These results present a first step towards characterizing the
+  classes of distributions RNN LMs can represent and thus help us understand
+  their capabilities and limitations.
+summary: >-
+  Instead of treating language models as unweighted recognizers, this paper
+  studies the probability distributions represented by recurrent neural language
+  models. It shows that simple RNNs correspond to a subclass of probabilistic
+  finite-state automata and analyzes the space needed for RNNs to represent
+  finite-state language models.
+tags:
+  - "rnn"
+  - "language-models"
+  - "probabilistic-automata"
+  - "formal-languages"
+  - "expressivity"

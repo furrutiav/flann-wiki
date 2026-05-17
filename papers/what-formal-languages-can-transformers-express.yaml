@@ -1,0 +1,39 @@
+title: "What Formal Languages Can Transformers Express? A Survey"
+authors:
+  - "Lena Strobl"
+  - "William Merrill"
+  - "Gail Weiss"
+  - "David Chiang"
+  - "Dana Angluin"
+venue: "Transactions of the Association for Computational Linguistics"
+year: 2024
+volume: 12
+pages: "543-561"
+urls:
+  abstract: "https://aclanthology.org/2024.tacl-1.30/"
+  pdf: "https://aclanthology.org/2024.tacl-1.30.pdf"
+  doi: "https://doi.org/10.1162/tacl_a_00663"
+abstract: >-
+  As transformers have gained prominence in natural language processing, some
+  researchers have investigated theoretically what problems they can and
+  cannot solve, by treating problems as formal languages. Exploring such
+  questions can help clarify the power of transformers relative to other
+  models of computation, their fundamental capabilities and limits, and the
+  impact of architectural choices. Work in this subarea has made considerable
+  progress in recent years. Here, we undertake a comprehensive survey of this
+  work, documenting the diverse assumptions that underlie different results
+  and providing a unified framework for harmonizing seemingly contradictory
+  findings.
+summary: >-
+  This survey organizes the rapidly growing literature on transformer
+  expressivity over formal languages. It compares assumptions about attention,
+  precision, positional encodings, masking, and computation steps, then provides
+  a unified vocabulary for results that can otherwise look contradictory. It is
+  an excellent index paper for a FLaNN bibliography.
+tags:
+  - "transformers"
+  - "formal-languages"
+  - "survey"
+  - "expressivity"
+  - "theory"
+

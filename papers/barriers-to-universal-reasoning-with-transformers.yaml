@@ -1,0 +1,42 @@
+title: "Barriers to Universal Reasoning With Transformers (And How to Overcome Them)"
+authors:
+  - "Oliver Kraus"
+  - "Yash Sarrof"
+  - "Yuekun Yao"
+  - "Alexander Koller"
+  - "Michael Hahn"
+venue: "arXiv"
+year: 2026
+urls:
+  abstract: "https://arxiv.org/abs/2604.25800"
+abstract: >-
+  Chain-of-Thought (CoT) has been shown to empirically improve Transformers'
+  performance, and theoretically increase their expressivity to Turing
+  completeness. However, whether Transformers can learn to generalize to CoT
+  traces longer than those seen during training is understudied. We use recent
+  theoretical frameworks for Transformer length generalization and find that --
+  under standard positional encodings and a finite alphabet -- Transformers with
+  CoT cannot solve problems beyond TC0, i.e. the expressivity benefits do not
+  hold under the stricter requirement of length-generalizable learnability.
+  However, if we allow the vocabulary to grow with problem size, we attain a
+  length-generalizable simulation of Turing machines where the CoT trace length
+  is linear in the simulated runtime up to a constant. Our construction overcomes
+  two core obstacles to reliable length generalization: repeated copying and
+  last-occurrence retrieval. We assign each tape position a unique signpost
+  token, and log only value changes to enable recovery of the current tape symbol
+  through counts circumventing both barriers. Further, we empirically show that
+  the use of such signpost tokens and value change encodings provide actionable
+  guidance to improve length generalization on hard problems.
+summary: >-
+  This preprint studies whether chain-of-thought lets transformers learn
+  length-generalizable universal reasoning. It argues that, with standard
+  positional encodings and a finite alphabet, transformers with CoT remain
+  limited to TC0 under length-generalizable learnability. It then proposes
+  signpost tokens and value-change traces as a way to obtain length-generalizable
+  simulations of Turing machines.
+tags:
+  - "transformers"
+  - "chain-of-thought"
+  - "length-generalization"
+  - "learnability"
+  - "TC0"

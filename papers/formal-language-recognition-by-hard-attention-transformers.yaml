@@ -1,0 +1,39 @@
+title: "Formal Language Recognition by Hard Attention Transformers: Perspectives from Circuit Complexity"
+authors:
+  - "Yiding Hao"
+  - "Dana Angluin"
+  - "Robert Frank"
+venue: "Transactions of the Association for Computational Linguistics"
+year: 2022
+volume: 10
+pages: "800-810"
+urls:
+  abstract: "https://aclanthology.org/2022.tacl-1.46/"
+  pdf: "https://aclanthology.org/2022.tacl-1.46.pdf"
+  doi: "https://doi.org/10.1162/tacl_a_00490"
+abstract: >-
+  This paper analyzes three formal models of Transformer encoders that differ
+  in the form of their self-attention mechanism: unique hard attention
+  (UHAT); generalized unique hard attention (GUHAT), which generalizes UHAT;
+  and averaging hard attention (AHAT). We show that UHAT and GUHAT
+  Transformers, viewed as string acceptors, can only recognize formal
+  languages in the complexity class AC0, the class of languages recognizable
+  by families of Boolean circuits of constant depth and polynomial size. This
+  upper bound subsumes Hahn's (2020) results that GUHAT cannot recognize the
+  DYCK languages or the PARITY language, since those languages are outside
+  AC0. In contrast, the non-AC0 languages MAJORITY and DYCK-1 are
+  recognizable by AHAT networks, implying that AHAT can recognize languages
+  that UHAT and GUHAT cannot.
+summary: >-
+  This paper analyzes transformer encoders with unique hard attention,
+  generalized unique hard attention, and average hard attention. It proves that
+  UHAT and GUHAT string acceptors recognize only AC0 languages, while AHAT can
+  recognize non-AC0 languages such as MAJORITY and DYCK-1. The work is an
+  important circuit-complexity predecessor to later FLaNN results.
+tags:
+  - "transformers"
+  - "hard-attention"
+  - "circuit-complexity"
+  - "formal-languages"
+  - "AC0"
+

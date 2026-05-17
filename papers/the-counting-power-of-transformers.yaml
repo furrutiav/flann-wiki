@@ -1,0 +1,43 @@
+title: "The Counting Power of Transformers"
+authors:
+  - "Marco Salzer"
+  - "Chris Kocher"
+  - "Alexander Kozachinskiy"
+  - "Georg Zetzsche"
+  - "Anthony Widjaja Lin"
+venue: "International Conference on Learning Representations"
+year: 2026
+urls:
+  abstract: "https://openreview.net/forum?id=IAFwK6NyrP"
+abstract: >-
+  Counting properties (e.g. determining whether certain tokens occur more than
+  other tokens in a given input text) have played a significant role in the study
+  of expressiveness of transformers. In this paper, we provide a formal
+  framework for investigating the counting power of transformers. We argue that
+  all existing results demonstrate transformers' expressivity only for
+  (semi-)linear counting properties, i.e., which are expressible as a boolean
+  combination of linear inequalities. Our main result is that transformers can
+  express counting properties that are highly nonlinear. More precisely, we prove
+  that transformers can capture all semialgebraic counting properties, i.e.,
+  expressible as a boolean combination of arbitrary multivariate polynomials (of
+  any degree). Among others, these generalize the counting properties that can be
+  captured by C-RASP softmax transformers, which capture only linear counting
+  properties. To complement this result, we exhibit a natural subclass of
+  (softmax) transformers that completely characterizes semialgebraic counting
+  properties. Through connections with the Hilbert's tenth problem, this
+  expressivity of transformers also yields a new undecidability result for
+  analyzing an extremely simple transformer model -- surprisingly with neither
+  positional encodings (i.e. NoPE-transformers) nor masking. We also
+  experimentally validate trainability of such counting properties.
+summary: >-
+  This paper develops a formal framework for transformer counting properties. It
+  argues that earlier expressivity results mainly captured semilinear counting,
+  then shows that transformers can express richer semialgebraic counting
+  properties defined by polynomial constraints. The work is explicitly connected
+  to FLaNN, attention, expressiveness, and formal languages.
+tags:
+  - "transformers"
+  - "counting"
+  - "formal-languages"
+  - "expressivity"
+  - "FLaNN"

@@ -1,0 +1,35 @@
+title: "Masked Hard-Attention Transformers Recognize Exactly the Star-Free Languages"
+authors:
+  - "Andy Yang"
+  - "David Chiang"
+  - "Dana Angluin"
+venue: "Advances in Neural Information Processing Systems"
+year: 2024
+urls:
+  abstract: "https://papers.neurips.cc/paper_files/paper/2024/hash/13d7f172259b11b230cc5da8768abc5f-Abstract-Conference.html"
+  pdf: "https://papers.neurips.cc/paper_files/paper/2024/file/13d7f172259b11b230cc5da8768abc5f-Paper-Conference.pdf"
+  arxiv: "https://arxiv.org/abs/2310.13897"
+abstract: >-
+  The expressive power of transformers over inputs of unbounded size can be
+  studied through their ability to recognize classes of formal languages. In this
+  paper, we establish exact characterizations of transformers with hard attention
+  (in which all attention is focused on exactly one position) and attention
+  masking (in which each position only attends to positions on one side). With
+  strict masking (each position cannot attend to itself) and without position
+  embeddings, these transformers are expressively equivalent to linear temporal
+  logic (LTL), which defines exactly the star-free languages. A key technique is
+  the use of Boolean RASP as a convenient intermediate language between
+  transformers and LTL. We then take numerous results known for LTL and apply
+  them to transformers, showing how position embeddings, strict masking, and
+  depth all increase expressive power.
+summary: >-
+  This work gives exact characterizations for hard-attention transformers with
+  masking. With strict masking and no positional embeddings, the models recognize
+  exactly the star-free regular languages, connecting transformer expressivity to
+  linear temporal logic, first-order logic, and counter-free automata.
+tags:
+  - "transformers"
+  - "hard-attention"
+  - "star-free-languages"
+  - "RASP"
+  - "logic"

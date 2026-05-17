@@ -1,0 +1,45 @@
+title: "A Formal Framework for Understanding Length Generalization in Transformers"
+authors:
+  - "Xinting Huang"
+  - "Andy Yang"
+  - "Satwik Bhattamishra"
+  - "Yash Sarrof"
+  - "Andreas Krebs"
+  - "Hattie Zhou"
+  - "Preetum Nakkiran"
+  - "Michael Hahn"
+venue: "International Conference on Learning Representations"
+year: 2025
+urls:
+  abstract: "https://openreview.net/forum?id=U49N5V51rU"
+  arxiv: "https://arxiv.org/abs/2410.02140"
+abstract: >-
+  A major challenge for transformers is generalizing to sequences longer than
+  those observed during training. While previous works have empirically shown
+  that transformers can either succeed or fail at length generalization
+  depending on the task, theoretical understanding of this phenomenon remains
+  limited. In this work, we introduce a rigorous theoretical framework to
+  analyze length generalization in causal transformers with learnable
+  absolute positional encodings. In particular, we characterize those
+  functions that are identifiable in the limit from sufficiently long inputs
+  with absolute positional encodings under an idealized inference scheme
+  using a norm-based regularizer. This enables us to prove the possibility of
+  length generalization for a rich family of problems. We experimentally
+  validate the theory as a predictor of success and failure of length
+  generalization across a range of algorithmic and formal language tasks. Our
+  theory not only explains a broad set of empirical observations but also
+  opens the way to provably predicting length generalization capabilities in
+  transformers.
+summary: >-
+  This paper develops a formal framework for when causal transformers with
+  learnable absolute positional encodings can length-generalize beyond their
+  training lengths. It characterizes learnable functions under an idealized
+  inference scheme and validates the theory on algorithmic and formal-language
+  tasks.
+tags:
+  - "transformers"
+  - "length-generalization"
+  - "learnability"
+  - "formal-languages"
+  - "theory"
+

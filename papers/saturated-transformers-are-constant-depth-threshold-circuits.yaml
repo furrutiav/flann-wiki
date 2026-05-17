@@ -1,0 +1,40 @@
+title: "Saturated Transformers are Constant-Depth Threshold Circuits"
+authors:
+  - "William Merrill"
+  - "Ashish Sabharwal"
+  - "Noah A. Smith"
+venue: "Transactions of the Association for Computational Linguistics"
+year: 2022
+volume: 10
+pages: "843-856"
+urls:
+  abstract: "https://aclanthology.org/2022.tacl-1.49/"
+  pdf: "https://aclanthology.org/2022.tacl-1.49.pdf"
+  doi: "https://doi.org/10.1162/tacl_a_00493"
+abstract: >-
+  Transformers have become a standard neural network architecture for many NLP
+  problems, motivating theoretical analysis of their power in terms of formal
+  languages. Recent work has shown that transformers with hard attention are
+  quite limited in power (Hahn, 2020), as they can be simulated by
+  constant-depth AND/OR circuits (Hao et al., 2022). However, hard attention is a
+  strong assumption, which may complicate the relevance of these results in
+  practice. In this work, we analyze the circuit complexity of transformers with
+  saturated attention: a generalization of hard attention that more closely
+  captures the attention patterns learnable in practical transformers. We first
+  show that saturated transformers transcend the known limitations of
+  hard-attention transformers. We then prove saturated transformers with
+  floating-point values can be simulated by constant-depth threshold circuits,
+  giving the class TC0 as an upper bound on the formal languages they recognize.
+summary: >-
+  This paper analyzes transformers with saturated attention, a model intended to
+  better approximate attention patterns learned in practice than pure hard
+  attention. It shows that saturated transformers go beyond hard-attention
+  limitations while still admitting a TC0 circuit upper bound under floating-point
+  values. The result is a core reference for circuit-complexity approaches to
+  transformer expressivity.
+tags:
+  - "transformers"
+  - "saturated-attention"
+  - "circuit-complexity"
+  - "TC0"
+  - "expressivity"

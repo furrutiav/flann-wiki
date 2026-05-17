@@ -1,0 +1,39 @@
+title: "Continuity and Isolation Lead to Doubts or Dilemmas in Large Language Models"
+authors:
+  - "Hector Pasten"
+  - "Felipe Urrutia"
+  - "Hector Jimenez"
+  - "Cristian B. Calderon"
+  - "Cristobal Rojas"
+  - "Alexander Kozachinskiy"
+venue: "Advances in Neural Information Processing Systems"
+year: 2025
+urls:
+  abstract: "https://openreview.net/forum?id=dR58v9Dd42"
+  pdf: "https://openreview.net/pdf?id=dR58v9Dd42"
+  arxiv: "https://arxiv.org/abs/2505.10606"
+abstract: >-
+  Understanding how Transformers work and how they process information is key to
+  the theoretical and empirical advancement of these machines. In this work, we
+  demonstrate the existence of two phenomena in Transformers, namely isolation
+  and continuity. Both of these phenomena hinder Transformers to learn even
+  simple pattern sequences. Isolation expresses that any learnable sequence must
+  be isolated from another learnable sequence, and hence some sequences cannot be
+  learned by a single Transformer at the same time. Continuity entails that an
+  attractor basin forms around a learned sequence, such that any sequence falling
+  in that basin will collapse towards the learned sequence. Here, we
+  mathematically prove these phenomena emerge in all Transformers that use
+  compact positional encoding, and design rigorous experiments, demonstrating
+  that the theoretical limitations we shed light on occur on the practical scale.
+summary: >-
+  This work studies two transformer phenomena, isolation and continuity, that
+  obstruct learning even simple pattern sequences. It gives a mathematical
+  account of these limitations under compact positional encodings and tests
+  whether the predicted behavior appears in practical transformer models.
+tags:
+  - "transformers"
+  - "language-models"
+  - "continuity"
+  - "positional-encodings"
+  - "limitations"
+

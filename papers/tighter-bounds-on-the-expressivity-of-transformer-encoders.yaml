@@ -1,0 +1,38 @@
+title: "Tighter Bounds on the Expressivity of Transformer Encoders"
+authors:
+  - "David Chiang"
+  - "Peter Cholak"
+  - "Anand Pillay"
+venue: "Proceedings of the 40th International Conference on Machine Learning"
+year: 2023
+volume: 202
+pages: "5544-5562"
+urls:
+  abstract: "https://proceedings.mlr.press/v202/chiang23a.html"
+  pdf: "https://proceedings.mlr.press/v202/chiang23a/chiang23a.pdf"
+abstract: >-
+  Characterizing neural networks in terms of better-understood formal systems
+  has the potential to yield new insights into the power and limitations of
+  these networks. Doing so for transformers remains an active area of
+  research. Bhattamishra and others have shown that transformer encoders are
+  at least as expressive as a certain kind of counter machine, while Merrill
+  and Sabharwal have shown that fixed-precision transformer encoders
+  recognize only languages in uniform TC0. We connect and strengthen these
+  results by identifying a variant of first-order logic with counting
+  quantifiers that is simultaneously an upper bound for fixed-precision
+  transformer encoders and a lower bound for transformer encoders. This
+  brings us much closer than before to an exact characterization of the
+  languages that transformer encoders recognize.
+summary: >-
+  The paper connects transformer encoders to a variant of first-order logic with
+  counting quantifiers. This logic serves as both an upper bound for
+  fixed-precision transformer encoders and a lower bound for transformer
+  encoders, tightening earlier relationships among transformers, counter
+  machines, and TC0.
+tags:
+  - "transformers"
+  - "logic"
+  - "counting"
+  - "expressivity"
+  - "ICML"
+

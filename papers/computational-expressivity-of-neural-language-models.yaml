@@ -1,0 +1,47 @@
+title: "Computational Expressivity of Neural Language Models"
+authors:
+  - "Alexandra Butoi"
+  - "Robin Chan"
+  - "Ryan Cotterell"
+  - "William Merrill"
+  - "Franz Nowak"
+  - "Clemente Pasti"
+  - "Lena Strobl"
+  - "Anej Svete"
+venue: "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics: Tutorial Abstracts"
+year: 2024
+pages: "5-5"
+urls:
+  abstract: "https://aclanthology.org/2024.acl-tutorials.3/"
+  pdf: "https://aclanthology.org/2024.acl-tutorials.3.pdf"
+  doi: "https://doi.org/10.18653/v1/2024.acl-tutorials.3"
+abstract: >-
+  Language models are currently at the forefront of NLP research due to their
+  remarkable versatility across diverse tasks. However, a large gap exists
+  between their observed capabilities and the explanations proposed by
+  established formal machinery. To motivate a better theoretical
+  characterization of LMs' abilities and limitations, this tutorial aims to
+  provide a comprehensive introduction to a specific framework for formal
+  analysis of modern LMs using tools from formal language theory. We present
+  how tools from formal language theory can be useful in understanding the
+  inner workings and predicting the capabilities of modern neural LM
+  architectures. We cover recent results using formal language theory to make
+  precise and practically relevant statements about LMs based on recurrent
+  neural networks and transformers by relating them to formal devices such as
+  finite-state automata, Turing machines, and analog circuits. Altogether,
+  the results covered in this tutorial allow us to make precise statements
+  and explanations about the observed as well as predicted behaviors of LMs,
+  as well as provide theoretically motivated suggestions on the aspects of
+  the architectures that could be improved.
+summary: >-
+  This tutorial abstract motivates a formal-language-theoretic framework for
+  understanding modern neural language models. It connects recurrent networks and
+  transformers to finite-state automata, Turing machines, analog circuits, and
+  related formal devices, making it a compact roadmap for FLaNN-style research.
+tags:
+  - "language-models"
+  - "formal-languages"
+  - "tutorial"
+  - "expressivity"
+  - "theory"
+

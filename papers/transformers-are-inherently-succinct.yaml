@@ -1,0 +1,40 @@
+title: "Transformers are Inherently Succinct"
+authors:
+  - "Pascal Bergstrasser"
+  - "Ryan Cotterell"
+  - "Anthony Widjaja Lin"
+venue: "International Conference on Learning Representations"
+year: 2026
+urls:
+  abstract: "https://openreview.net/forum?id=Yxz92UuPLQ"
+  pdf: "https://openreview.net/pdf?id=Yxz92UuPLQ"
+abstract: >-
+  We study succinctness as a measure of the expressive power of transformers.
+  Succinctness -- how compactly a formalism can describe a language relative to
+  other formalisms -- is a classical notion in logic and automata theory. We
+  prove that fixed-precision transformers are remarkably succinct: they can be
+  exponentially more succinct than both linear temporal logic (LTL) and recurrent
+  neural networks, and, by extension, state-space models, and doubly
+  exponentially more succinct than finite automata. In other words, there exist
+  families of languages describable by polynomial-size transformers whose
+  smallest equivalent LTL formula or recurrent neural network is exponentially
+  large, and whose smallest equivalent automaton is doubly exponentially large.
+  We also establish matching upper bounds, showing that any fixed-precision
+  transformer can be converted to an LTL formula with at most an exponential
+  blow-up -- improving a prior doubly exponential translation. As a consequence
+  of this succinctness, we show that basic verification problems for
+  transformers, such as emptiness and equivalence, are provably intractable:
+  specifically, EXPSPACE-complete.
+summary: >-
+  This paper studies transformer expressivity through succinctness: how compactly
+  a model can describe a language compared with automata, temporal logic, RNNs,
+  and state-space models. It proves fixed-precision transformers can be
+  exponentially or doubly exponentially more succinct than several classical
+  formalisms, with consequences for verification problems such as emptiness and
+  equivalence.
+tags:
+  - "transformers"
+  - "succinctness"
+  - "automata"
+  - "verification"
+  - "expressivity"
