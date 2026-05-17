@@ -1,0 +1,34 @@
+title: "On the Practical Computational Power of Finite Precision RNNs for Language Recognition"
+authors:
+  - "Gail Weiss"
+  - "Yoav Goldberg"
+  - "Eran Yahav"
+venue: "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics"
+year: 2018
+pages: "740-745"
+urls:
+  abstract: "https://aclanthology.org/P18-2117/"
+  pdf: "https://aclanthology.org/P18-2117.pdf"
+  arxiv: "https://arxiv.org/abs/1805.04908"
+  doi: "https://doi.org/10.18653/v1/P18-2117"
+abstract: >-
+  While Recurrent Neural Networks (RNNs) are famously known to be Turing
+  complete, this relies on infinite precision in the states and unbounded
+  computation time. We consider the case of RNNs with finite precision whose
+  computation time is linear in the input length. Under these limitations, we
+  show that different RNN variants have different computational power. In
+  particular, we show that the LSTM and the Elman-RNN with ReLU activation are
+  strictly stronger than the RNN with a squashing activation and the GRU. This is
+  achieved because LSTMs and ReLU-RNNs can easily implement counting behavior. We
+  show empirically that the LSTM does indeed learn to effectively use the
+  counting mechanism.
+summary: >-
+  This paper studies the computational power of finite-precision RNN variants
+  running in linear time. It separates LSTMs and ReLU RNNs from squashing RNNs and
+  GRUs through their ability to implement counting behavior.
+tags:
+  - "rnn"
+  - "lstm"
+  - "finite-precision"
+  - "counting"
+  - "formal-languages"

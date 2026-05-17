@@ -1,0 +1,35 @@
+title: "Softmax Transformers are Turing-Complete"
+authors:
+  - "Hongjian Jiang"
+  - "Michael Hahn"
+  - "Georg Zetzsche"
+  - "Anthony Widjaja Lin"
+venue: "arXiv"
+year: 2025
+urls:
+  abstract: "https://arxiv.org/abs/2511.20038"
+abstract: >-
+  Hard attention Chain-of-Thought (CoT) transformers are known to be
+  Turing-complete. However, it is an open problem whether softmax attention
+  Chain-of-Thought (CoT) transformers are Turing-complete. In this paper, we
+  prove a stronger result that length-generalizable softmax CoT transformers are
+  Turing-complete. More precisely, our Turing-completeness proof goes via the CoT
+  extension of the Counting RASP (C-RASP), which correspond to softmax CoT
+  transformers that admit length generalization. We prove Turing-completeness for
+  CoT C-RASP with causal masking over a unary alphabet (more generally, for
+  letter-bounded languages). While we show this is not Turing-complete for
+  arbitrary languages, we prove that its extension with relative positional
+  encoding is Turing-complete for arbitrary languages. We empirically validate
+  our theory by training transformers for languages requiring complex
+  (non-linear) arithmetic reasoning.
+summary: >-
+  This paper proves that length-generalizable softmax chain-of-thought
+  transformers can be Turing-complete, using a CoT extension of Counting RASP.
+  It sharpens the relationship between softmax attention, length generalization,
+  and universal computation.
+tags:
+  - "transformers"
+  - "softmax-attention"
+  - "turing-completeness"
+  - "chain-of-thought"
+  - "RASP"

@@ -1,0 +1,32 @@
+title: "Analysis of Recurrent Neural Networks via Property-Directed Verification of Surrogate Models"
+authors:
+  - "Daniel Neider"
+  - "Rajarshi Roy"
+  - "Xiaofei Xie"
+  - "Lei Ma"
+venue: "International Journal on Software Tools for Technology Transfer"
+year: 2023
+urls:
+  abstract: "https://link.springer.com/article/10.1007/s10009-022-00684-w"
+  doi: "https://doi.org/10.1007/s10009-022-00684-w"
+abstract: >-
+  This paper presents a property-directed approach to verifying recurrent neural
+  networks (RNNs). To this end, we learn a deterministic finite automaton as a
+  surrogate model from a given RNN using active automata learning. This model may
+  then be analyzed using model checking as a verification technique. The term
+  property-directed reflects the idea that our procedure is guided and
+  controlled by the given property rather than performing the two steps
+  separately. We show that this not only allows us to discover small
+  counterexamples fast, but also to generalize them by pumping toward faulty
+  flows hinting at the underlying error in the RNN. We also show that our method
+  can be efficiently used for adversarial robustness certification of RNNs.
+summary: >-
+  This paper uses property-directed verification of automata-like surrogate
+  models to analyze RNN classifiers. It belongs in the database as a formal
+  methods and automata-extraction approach to understanding recurrent networks.
+tags:
+  - "rnn"
+  - "verification"
+  - "automata"
+  - "formal-methods"
+  - "interpretability"

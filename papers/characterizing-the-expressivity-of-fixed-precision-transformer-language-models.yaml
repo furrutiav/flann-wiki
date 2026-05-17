@@ -1,0 +1,33 @@
+title: "Characterizing the Expressivity of Fixed-Precision Transformer Language Models"
+authors:
+  - "Jiaoda Li"
+  - "Ryan Cotterell"
+venue: "Advances in Neural Information Processing Systems"
+year: 2025
+urls:
+  abstract: "https://arxiv.org/abs/2505.23623"
+abstract: >-
+  Transformer-based language models (LMs) have achieved widespread empirical
+  success, but their theoretical expressive power remains only partially
+  understood. In this work, we analyze a restricted idealization of
+  fixed-precision transformers with strict future masking, soft attention, and no
+  positional encodings. We establish that this class of models is exactly as
+  expressive as a specific fragment of linear temporal logic that contains only a
+  single temporal operator: the past operator. We further connect this fragment
+  to established classes in formal language theory, automata theory, and algebra,
+  yielding a unified framework for understanding transformer expressivity under
+  this idealization. Finally, we present empirical results that align closely
+  with our theory: transformers trained on languages within their characterized
+  expressive capacity generalize reliably across sequence lengths, while they
+  consistently fail to generalize on languages beyond it.
+summary: >-
+  This paper gives an exact characterization of a fixed-precision transformer LM
+  idealization with strict future masking, soft attention, and no positional
+  encodings. It connects the model to a fragment of linear temporal logic and to
+  formal-language, automata, and algebraic classes.
+tags:
+  - "transformers"
+  - "fixed-precision"
+  - "linear-temporal-logic"
+  - "formal-languages"
+  - "expressivity"

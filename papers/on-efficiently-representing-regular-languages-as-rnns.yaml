@@ -1,0 +1,38 @@
+title: "On Efficiently Representing Regular Languages as RNNs"
+authors:
+  - "Anej Svete"
+  - "Robin Shing Moon Chan"
+  - "Ryan Cotterell"
+venue: "Findings of the Association for Computational Linguistics: ACL"
+year: 2024
+pages: "4110-4142"
+urls:
+  abstract: "https://aclanthology.org/2024.findings-acl.244/"
+  pdf: "https://aclanthology.org/2024.findings-acl.244.pdf"
+  arxiv: "https://arxiv.org/abs/2402.15814"
+  doi: "https://doi.org/10.18653/v1/2024.findings-acl.244"
+abstract: >-
+  Recent work by Hewitt et al. (2020) provides an interpretation of the empirical
+  success of recurrent neural networks (RNNs) as language models (LMs). It shows
+  that RNNs can efficiently represent bounded hierarchical structures that are
+  prevalent in human language.This suggests that RNNs' success might be linked to
+  their ability to model hierarchy. However, a closer inspection of
+  hewitt-etal-2020-rnns construction shows that it is not inherently limited to
+  hierarchical structures. This poses a natural question: What other classes of
+  LMs RNNs can efficiently represent? To this end, we generalize Hewitt et al.'s
+  (2020) construction and show that RNNs can efficiently represent a larger class
+  of LMs than previously claimed-specifically, those that can be represented by a
+  pushdown automaton with a bounded stack and a specific stack update function.
+  Altogether, the efficiency of representing this diverse class of LMs with RNN
+  LMs suggests novel interpretations of their inductive bias.
+summary: >-
+  This paper studies which probabilistic regular language models can be
+  efficiently represented by RNN language models. It generalizes bounded-stack
+  constructions and helps clarify what kinds of formal language structure RNNs
+  may represent compactly.
+tags:
+  - "rnn"
+  - "regular-languages"
+  - "language-models"
+  - "efficient-representation"
+  - "formal-languages"

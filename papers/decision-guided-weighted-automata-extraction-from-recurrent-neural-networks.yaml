@@ -1,0 +1,43 @@
+title: "Decision-Guided Weighted Automata Extraction from Recurrent Neural Networks"
+authors:
+  - "Xiyue Zhang"
+  - "Xiaoning Du"
+  - "Xiaofei Xie"
+  - "Lei Ma"
+  - "Yang Liu"
+  - "Meng Sun"
+venue: "Proceedings of the AAAI Conference on Artificial Intelligence"
+year: 2021
+volume: 35
+issue: 13
+pages: "11699-11707"
+urls:
+  abstract: "https://ojs.aaai.org/index.php/AAAI/article/view/17391"
+  pdf: "https://cdn.aaai.org/ojs/17391/17391-13-20885-1-2-20210518.pdf"
+  doi: "https://doi.org/10.1609/aaai.v35i13.17391"
+abstract: >-
+  Recurrent Neural Networks (RNNs) have demonstrated their effectiveness in
+  learning and processing sequential data (e.g., speech and natural language).
+  However, due to the black-box nature of neural networks, understanding the
+  decision logic of RNNs is quite challenging. Some recent progress has been made
+  to approximate the behavior of an RNN by weighted automata. They provide better
+  interpretability, but still suffer from poor scalability. In this paper, we
+  propose a novel approach to extracting weighted automata with the guidance of a
+  target RNN's decision and context information. In particular, we identify the
+  patterns of RNN's step-wise predictive decisions to instruct the formation of
+  automata states. Further, we propose a state composition method to enhance the
+  context-awareness of the extracted model. Our in-depth evaluations on typical
+  RNN tasks, including language model and classification, demonstrate the
+  effectiveness and advantage of our method over the state-of-the-arts. The
+  evaluation results show that our method can achieve accurate approximation of
+  an RNN even on large-scale tasks.
+summary: >-
+  This paper extracts weighted automata from RNNs using guidance from the target
+  network's decisions and context information. It fits as a formal surrogate
+  model and interpretability approach for recurrent sequence models.
+tags:
+  - "rnn"
+  - "weighted-automata"
+  - "model-extraction"
+  - "interpretability"
+  - "formal-methods"

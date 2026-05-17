@@ -1,0 +1,35 @@
+title: "Connecting Weighted Automata and Recurrent Neural Networks through Spectral Learning"
+authors:
+  - "Guillaume Rabusseau"
+  - "Tianyu Li"
+  - "Doina Precup"
+venue: "Proceedings of the Twenty-Second International Conference on Artificial Intelligence and Statistics"
+year: 2019
+volume: 89
+pages: "1630-1639"
+urls:
+  abstract: "https://proceedings.mlr.press/v89/rabusseau19a.html"
+  pdf: "https://proceedings.mlr.press/v89/rabusseau19a/rabusseau19a.pdf"
+  arxiv: "https://arxiv.org/abs/1807.01406"
+abstract: >-
+  In this paper, we unravel a fundamental connection between weighted finite
+  automata (WFAs) and second-order recurrent neural networks (2-RNNs): in the
+  case of sequences of discrete symbols, WFAs and 2-RNNs with linear activation
+  functions are expressively equivalent. Motivated by this result, we build upon
+  a recent extension of the spectral learning algorithm to vector-valued WFAs and
+  propose the first provable learning algorithm for linear 2-RNNs defined over
+  sequences of continuous input vectors. This algorithm relies on estimating low
+  rank sub-blocks of the so-called Hankel tensor, from which the parameters of a
+  linear 2-RNN can be provably recovered. The performances of the proposed method
+  are assessed in a simulation study.
+summary: >-
+  This paper proves an expressive equivalence between weighted finite automata
+  and linear second-order RNNs over discrete symbols, then develops a provable
+  spectral learning algorithm for linear 2-RNNs over continuous inputs. It is a
+  core automata-theoretic connection between symbolic and neural sequence models.
+tags:
+  - "rnn"
+  - "weighted-automata"
+  - "spectral-learning"
+  - "formal-languages"
+  - "learnability"

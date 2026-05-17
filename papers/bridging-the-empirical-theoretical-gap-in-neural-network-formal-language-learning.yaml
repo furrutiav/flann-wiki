@@ -1,0 +1,33 @@
+title: "Bridging the Empirical-Theoretical Gap in Neural Network Formal Language Learning Using Minimum Description Length"
+authors:
+  - "Nur Lan"
+  - "Emmanuel Chemla"
+  - "Roni Katzir"
+venue: "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics"
+year: 2024
+urls:
+  abstract: "https://aclanthology.org/2024.acl-long.713/"
+  pdf: "https://aclanthology.org/2024.acl-long.713.pdf"
+  arxiv: "https://arxiv.org/abs/2402.10013"
+abstract: >-
+  Neural networks offer good approximation to many tasks but consistently fail
+  to reach perfect generalization, even when theoretical work shows that such
+  perfect solutions can be expressed by certain architectures. Using the task of
+  formal language learning, we focus on one simple formal language and show that
+  the theoretically correct solution is in fact not an optimum of commonly used
+  objectives - even with regularization techniques that according to common
+  wisdom should lead to simple weights and good generalization (L1, L2) or other
+  meta-heuristics (early-stopping, dropout). On the other hand, replacing
+  standard targets with the Minimum Description Length objective (MDL) results in
+  the correct solution being an optimum.
+summary: >-
+  This paper argues that failures in formal-language learning can arise from the
+  training objective itself rather than merely optimization accidents. It uses
+  Minimum Description Length as a bridge between theoretical solutions and what
+  neural models learn in practice.
+tags:
+  - "formal-languages"
+  - "learnability"
+  - "minimum-description-length"
+  - "rnn"
+  - "generalization"

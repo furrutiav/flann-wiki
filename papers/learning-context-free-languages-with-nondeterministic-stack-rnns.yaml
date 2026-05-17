@@ -1,0 +1,32 @@
+title: "Learning Context-Free Languages with Nondeterministic Stack RNNs"
+authors:
+  - "Brian DuSell"
+  - "David Chiang"
+venue: "Proceedings of the 24th Conference on Computational Natural Language Learning"
+year: 2020
+pages: "507-519"
+urls:
+  abstract: "https://aclanthology.org/2020.conll-1.41/"
+  pdf: "https://aclanthology.org/2020.conll-1.41.pdf"
+  arxiv: "https://arxiv.org/abs/2010.04674"
+  doi: "https://doi.org/10.18653/v1/2020.conll-1.41"
+abstract: >-
+  We present a differentiable stack data structure that simultaneously and
+  tractably encodes an exponential number of stack configurations, based on
+  Lang's algorithm for simulating nondeterministic pushdown automata. We call the
+  combination of this data structure with a recurrent neural network (RNN)
+  controller a Nondeterministic Stack RNN. We compare our model against existing
+  stack RNNs on various formal languages, demonstrating that our model converges
+  more reliably to algorithmic behavior on deterministic tasks, and achieves
+  lower cross-entropy on inherently nondeterministic tasks.
+summary: >-
+  This paper introduces a nondeterministic stack RNN that compactly represents
+  exponentially many stack configurations, inspired by pushdown automata. It
+  evaluates the model on context-free language tasks and connects neural memory
+  design to formal language recognition.
+tags:
+  - "rnn"
+  - "neural-stacks"
+  - "pushdown-automata"
+  - "context-free-languages"
+  - "formal-languages"

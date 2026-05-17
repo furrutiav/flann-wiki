@@ -1,0 +1,45 @@
+title: "What Languages are Easy to Language-Model? A Perspective from Learning Probabilistic Regular Languages"
+authors:
+  - "Nadav Borenstein"
+  - "Anej Svete"
+  - "Robin Shing Moon Chan"
+  - "Josef Valvoda"
+  - "Franz Nowak"
+  - "Isabelle Augenstein"
+  - "Eleanor Chodroff"
+  - "Ryan Cotterell"
+venue: "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics"
+year: 2024
+pages: "13966-13994"
+urls:
+  abstract: "https://aclanthology.org/2024.acl-long.807/"
+  pdf: "https://aclanthology.org/2024.acl-long.807.pdf"
+  arxiv: "https://arxiv.org/abs/2406.04289"
+  doi: "https://doi.org/10.18653/v1/2024.acl-long.807"
+abstract: >-
+  What can large language models learn? By definition, language models (LM) are
+  distributionsover strings. Therefore, an intuitive way of addressing the above
+  question is to formalize it as a matter of learnability of classes of
+  distributions over strings. While prior work in this direction focused on
+  assessing the theoretical limits, in contrast, we seek to understand the
+  empirical learnability. Unlike prior empirical work, we evaluate neural LMs on
+  their home turf-learning probabilistic languages-rather than as classifiers of
+  formal languages. In particular, we investigate the learnability of regular LMs
+  (RLMs) by RNN and Transformer LMs. We empirically test the learnability of RLMs
+  as a function of various complexity parameters of the RLM and the hidden state
+  size of the neural LM. We find that the RLM rank, which corresponds to the size
+  of linear space spanned by the logits of its conditional distributions, and the
+  expected length of sampled strings are strong and significant predictors of
+  learnability for both RNNs and Transformers. Several other predictors also
+  reach significance, but with differing patterns between RNNs and Transformers.
+summary: >-
+  This paper studies learnability of probabilistic regular languages by RNN and
+  transformer language models, using probabilistic finite-state automata as the
+  target distributions. It helps shift formal-language evaluation from binary
+  recognition to probabilistic language modeling.
+tags:
+  - "language-models"
+  - "probabilistic-automata"
+  - "regular-languages"
+  - "learnability"
+  - "formal-languages"

@@ -1,0 +1,39 @@
+title: "On the Practical Ability of Recurrent Neural Networks to Recognize Hierarchical Languages"
+authors:
+  - "Satwik Bhattamishra"
+  - "Kabir Ahuja"
+  - "Navin Goyal"
+venue: "Proceedings of the 28th International Conference on Computational Linguistics"
+year: 2020
+urls:
+  abstract: "https://arxiv.org/abs/2011.03965"
+abstract: >-
+  While recurrent models have been effective in NLP tasks, their performance on
+  context-free languages (CFLs) has been found to be quite weak. Given that CFLs
+  are believed to capture important phenomena such as hierarchical structure in
+  natural languages, this discrepancy in performance calls for an explanation. We
+  study the performance of recurrent models on Dyck-n languages, a particularly
+  important and well-studied class of CFLs. We find that while recurrent models
+  generalize nearly perfectly if the lengths of the training and test strings are
+  from the same range, they perform poorly if the test strings are longer. At the
+  same time, we observe that recurrent models are expressive enough to recognize
+  Dyck words of arbitrary lengths in finite precision if their depths are
+  bounded. Hence, we evaluate our models on samples generated from Dyck languages
+  with bounded depth and find that they are indeed able to generalize to much
+  higher lengths. Since natural language datasets have nested dependencies of
+  bounded depth, this may help explain why they perform well in modeling
+  hierarchical dependencies in natural language data despite prior works
+  indicating poor generalization performance on Dyck languages. We perform
+  probing studies to support our results and provide comparisons with
+  Transformers.
+summary: >-
+  This paper examines how RNNs recognize Dyck languages in practice and argues
+  that bounded-depth hierarchical structure changes the generalization picture.
+  It is relevant because it links empirical RNN behavior on CFLs to finite
+  precision and bounded hierarchy assumptions.
+tags:
+  - "rnn"
+  - "hierarchical-languages"
+  - "dyck-languages"
+  - "finite-precision"
+  - "generalization"

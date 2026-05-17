@@ -1,0 +1,39 @@
+title: "RNNs can generate bounded hierarchical languages with optimal memory"
+authors:
+  - "John Hewitt"
+  - "Michael Hahn"
+  - "Surya Ganguli"
+  - "Percy Liang"
+  - "Christopher D. Manning"
+venue: "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing"
+year: 2020
+urls:
+  abstract: "https://aclanthology.org/2020.emnlp-main.156/"
+  pdf: "https://aclanthology.org/2020.emnlp-main.156.pdf"
+  arxiv: "https://arxiv.org/abs/2010.07515"
+  doi: "https://doi.org/10.18653/v1/2020.emnlp-main.156"
+abstract: >-
+  Recurrent neural networks empirically generate natural language with high
+  syntactic fidelity. However, their success is not well-understood
+  theoretically. We provide theoretical insight into this success, proving in a
+  finite-precision setting that RNNs can efficiently generate bounded
+  hierarchical languages that reflect the scaffolding of natural language syntax.
+  We introduce Dyck-$(k,m)$, the language of well-nested brackets (of $k$ types)
+  and $m$-bounded nesting depth, reflecting the bounded memory needs and
+  long-distance dependencies of natural language syntax. The best known results
+  use $O(k^{\frac{m}{2}})$ memory (hidden units) to generate these languages. We
+  prove that an RNN with $O(m \log k)$ hidden units suffices, an exponential
+  reduction in memory, by an explicit construction. Finally, we show that no
+  algorithm, even with unbounded computation, can suffice with $o(m \log k)$
+  hidden units.
+summary: >-
+  This paper proves that finite-precision RNNs can efficiently generate
+  bounded-depth Dyck languages with optimal memory. It gives a theoretical
+  explanation for why RNNs can model bounded hierarchical dependencies found in
+  natural language.
+tags:
+  - "rnn"
+  - "hierarchical-languages"
+  - "dyck-languages"
+  - "memory-complexity"
+  - "formal-languages"

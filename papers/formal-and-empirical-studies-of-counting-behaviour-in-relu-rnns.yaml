@@ -1,0 +1,44 @@
+title: "Formal and Empirical Studies of Counting Behaviour in ReLU RNNs"
+authors:
+  - "Nadine El-Naggar"
+  - "Andrew Ryzhikov"
+  - "Laure Daviaud"
+  - "Pranava Madhyastha"
+  - "Tillman Weyde"
+venue: "Proceedings of the 16th International Conference on Grammatical Inference"
+year: 2023
+volume: 217
+urls:
+  abstract: "https://proceedings.mlr.press/v217/el-naggar23a.html"
+  pdf: "https://proceedings.mlr.press/v217/el-naggar23a/el-naggar23a.pdf"
+abstract: >-
+  In recent years, the discussion about systematicity of neural network learning
+  has gained renewed interest, in particular the formal analysis of neural
+  network behaviour. In this paper, we investigate the capability of single-cell
+  ReLU RNN models to demonstrate precise counting behaviour. Formally, we start
+  by characterising the semi-Dyck-1 language and semi-Dyck-1 counter machine
+  that can be implemented by a single Rectified Linear Unit (ReLU) cell. We
+  define three Counter Indicator Conditions (CICs) on the weights of a ReLU cell
+  and show that fulfilling these conditions is equivalent to accepting the
+  semi-Dyck-1 language, i.e. to perform exact counting. Empirically, we study the
+  ability of single-cell ReLU RNNs to learn to count by training and testing them
+  on different datasets of Dyck-1 and semi-Dyck-1 strings. While networks that
+  satisfy the CICs count exactly and thus correctly even on very long strings,
+  the trained networks exhibit a wide range of results and never satisfy the CICs
+  exactly. We investigate the effect of deviating from the CICs and find that
+  configurations that fulfil the CICs are not at a minimum of the loss function
+  in the most common setups. This is consistent with observations in previous
+  research indicating that training ReLU networks for counting tasks often leads
+  to poor results. We finally discuss implications of these results and possible
+  avenues for improving network behaviour.
+summary: >-
+  This paper characterizes exact counting behavior in single-cell ReLU RNNs
+  through counter indicator conditions, then compares those formal conditions
+  with what training actually learns on Dyck-style tasks. It directly connects
+  RNN weights, automata-theoretic counting, and empirical learnability.
+tags:
+  - "rnn"
+  - "ReLU"
+  - "counting"
+  - "dyck-languages"
+  - "formal-languages"

@@ -1,0 +1,38 @@
+title: "Characterizing the Expressivity of Local Attention in Transformers"
+authors:
+  - "Jiaoda Li"
+  - "Ryan Cotterell"
+venue: "arXiv"
+year: 2026
+urls:
+  abstract: "https://arxiv.org/abs/2605.00768"
+abstract: >-
+  The transformer is the most popular neural architecture for language modeling.
+  The cornerstone of the transformer is its global attention mechanism, which
+  lets the model aggregate information from all preceding tokens before
+  generating the next token. One common variant of attention is called local
+  attention, which restricts each token to aggregating information from a bounded
+  window of predecessors, reducing the quadratic cost of global attention to
+  linear. Although this restriction is usually motivated by efficiency, it has
+  also been found to improve model quality, a phenomenon that has so far lacked a
+  satisfactory explanation. We provide a formal account of this phenomenon in
+  terms of recognizer expressivity. It has been shown that fixed-precision
+  transformers with global attention correspond to a fragment of linear temporal
+  logic containing a single past operator. We additionally prove that adding
+  local attention introduces a second temporal operator, strictly enlarging the
+  class of recognizable regular languages. Moreover, global and local attention
+  are expressively complementary: neither subsumes the other, and combining them
+  yields the richest fragment. Experiments on formal language recognition and
+  natural language modeling corroborate the theory, showing that hybrid
+  global--local transformers outperform their global-only counterparts.
+summary: >-
+  This paper analyzes local attention as a formal-language recognizer mechanism.
+  It shows that adding local attention introduces a distinct temporal operator,
+  strictly enlarging the class of recognizable regular languages and making local
+  and global attention expressively complementary.
+tags:
+  - "transformers"
+  - "local-attention"
+  - "linear-temporal-logic"
+  - "formal-languages"
+  - "expressivity"

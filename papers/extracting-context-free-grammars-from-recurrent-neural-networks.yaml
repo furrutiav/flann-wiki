@@ -1,0 +1,38 @@
+title: "Extracting Context-Free Grammars from Recurrent Neural Networks using Tree-Automata Learning and A* Search"
+authors:
+  - "Benoit Barbot"
+  - "Benedikt Bollig"
+  - "Alain Finkel"
+  - "Serge Haddad"
+  - "Igor Khmelnitsky"
+  - "Martin Leucker"
+  - "Daniel Neider"
+  - "Rajarshi Roy"
+  - "Lina Ye"
+venue: "Proceedings of the Fifteenth International Conference on Grammatical Inference"
+year: 2021
+volume: 153
+pages: "113-129"
+urls:
+  abstract: "https://proceedings.mlr.press/v153/barbot21a.html"
+  pdf: "https://proceedings.mlr.press/v153/barbot21a/barbot21a.pdf"
+abstract: >-
+  This paper presents (i) an active learning algorithm for visibly pushdown
+  grammars and (ii) shows its applicability for learning surrogate models of
+  recurrent neural networks (RNNs) trained on context-free languages. Such
+  surrogate models may be used for verification or explainability. Our learning
+  algorithm makes use of the proximity of visibly pushdown languages and regular
+  tree languages and builds on an existing learning algorithm for regular tree
+  languages. Equivalence tests between a given RNN and a hypothesis grammar rely
+  on a mixture of A* search and random sampling. An evaluation of our approach on
+  a set of RNNs from the literature shows good preliminary results.
+summary: >-
+  This paper learns visibly pushdown grammar surrogates for RNNs trained on
+  context-free languages. It combines tree-automata learning and search to
+  support formal explainability and verification of recurrent models.
+tags:
+  - "rnn"
+  - "context-free-grammars"
+  - "tree-automata"
+  - "model-extraction"
+  - "verification"

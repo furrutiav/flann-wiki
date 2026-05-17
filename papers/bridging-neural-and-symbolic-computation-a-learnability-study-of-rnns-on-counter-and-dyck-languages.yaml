@@ -1,0 +1,53 @@
+title: "Bridging Neural and Symbolic Computation: A Learnability Study of RNNs on Counter and Dyck Languages"
+authors:
+  - "Neisarg Dave"
+  - "Daniel Kifer"
+  - "C. Lee Giles"
+  - "Ankur Mali"
+venue: "Proceedings of the 19th International Conference on Neurosymbolic Learning and Reasoning"
+year: 2025
+volume: 284
+pages: "86-115"
+urls:
+  abstract: "https://proceedings.mlr.press/v284/dave25a.html"
+  pdf: "https://raw.githubusercontent.com/mlresearch/v284/main/assets/dave25a/dave25a.pdf"
+abstract: >-
+  This work presents a neuro-symbolic analysis of the learnability of Recurrent
+  Neural Networks (RNNs) in classifying structured formal languages-specifically,
+  counter languages and Dyck languages, which serve as canonical examples of
+  context-free and mildly context-sensitive grammars. While prior studies have
+  highlighted the expressive power of first-order (LSTM) and second-order
+  (O2RNN) architectures within the Chomsky hierarchy, we challenge this
+  perspective by shifting the focus from theoretical expressivity to practical
+  learnability under finite precision constraints. Our results suggest that RNNs
+  function more as finite-state machines than stack-based automata when
+  implemented with realistic training regimes and embedding representations. We
+  show that classification performance degrades sharply as structural
+  similarities between positive and negative sequences increase-highlighting a
+  core limitation in the RNN's ability to internalize hierarchical structure
+  without symbolic scaffolding. Interestingly, even simple linear classifiers
+  built on top of RNN-derived embeddings outperform chance, underscoring the
+  hidden representational capacity within learned states. To probe
+  generalization, we train models on input lengths up to 40 and evaluate on
+  lengths extending to 500, using 10 distinct seeds to measure statistical
+  robustness. O2RNNs consistently demonstrate greater stability and
+  generalization compared to LSTMs, particularly under varied initialization
+  strategies. These findings expose the fragility of learned language
+  representations and emphasize the role of architectural bias, initialization,
+  and data sampling in determining what is truly learnable. Ultimately, our
+  study reframes RNN learnability through the lens of symbolic structure and
+  computational constraints, advocating for stronger formal criteria when
+  assessing neural models' capacity to reason over structured sequences. We
+  argue that expressivity alone is insufficient-stability, precision, and
+  symbolic alignment are essential for true neuro-symbolic generalization.
+summary: >-
+  This paper studies practical learnability of RNNs on counter and Dyck
+  languages under finite-precision and data-sampling constraints. It is relevant
+  to the database because it reframes expressivity claims in terms of what neural
+  sequence models can actually learn from formal-language data.
+tags:
+  - "rnn"
+  - "formal-languages"
+  - "learnability"
+  - "dyck-languages"
+  - "finite-precision"

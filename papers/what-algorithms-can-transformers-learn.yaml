@@ -1,0 +1,45 @@
+title: "What Algorithms can Transformers Learn? A Study in Length Generalization"
+authors:
+  - "Hattie Zhou"
+  - "Arwen Bradley"
+  - "Etai Littwin"
+  - "Noam Razin"
+  - "Omid Saremi"
+  - "Josh Susskind"
+  - "Samy Bengio"
+  - "Preetum Nakkiran"
+venue: "International Conference on Learning Representations"
+year: 2024
+urls:
+  abstract: "https://openreview.net/forum?id=AssIuHnmHX"
+  arxiv: "https://arxiv.org/abs/2310.16028"
+abstract: >-
+  Large language models exhibit surprising emergent generalization properties,
+  yet also struggle on many simple reasoning tasks such as arithmetic and parity.
+  In this work, we focus on length generalization, and we propose a unifying
+  framework to understand when and how Transformers can be expected to length
+  generalize on a given task. First, we show that there exist algorithmic tasks
+  for which standard decoder-only Transformers trained from scratch naturally
+  exhibit strong length generalization. For these tasks, we leverage the RASP
+  programming language (Weiss et al., 2021) to show that the correct algorithmic
+  solution which solves the task can be represented by a simple Transformer. We
+  thus propose the RASP-Generalization Conjecture: Transformers tend to learn a
+  length-generalizing solution if there exists a short RASP-L program that works
+  for all input lengths. We present empirical evidence to support the correlation
+  between RASP-simplicity and generalization. We leverage our insights to give
+  new scratchpad formats which yield strong length generalization on
+  traditionally hard tasks (such as parity and addition), and we illustrate how
+  scratchpad can hinder generalization when it increases the complexity of the
+  corresponding RASP-L program. Overall, our work provides a novel perspective on
+  the mechanisms of length generalization and the algorithmic capabilities of
+  Transformers.
+summary: >-
+  This paper studies transformer length generalization on algorithmic tasks and
+  proposes the RASP-Generalization Conjecture: tasks with short length-uniform
+  RASP programs are more likely to be learned in a length-generalizing way.
+tags:
+  - "transformers"
+  - "length-generalization"
+  - "RASP"
+  - "algorithms"
+  - "learnability"
