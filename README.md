@@ -16,6 +16,12 @@
   formal tools such as automata, formal languages, circuits, logic, complexity,
   or dynamical systems.
 
+- [ ] Build a FLaNN-style concept zoo.
+  Inspired by resources like the Complexity Zoo, create browsable pages for the
+  main objects studied by the community and the relationships between them. For
+  example: model classes, formal languages, benchmark tasks, theorem families,
+  separations, reductions, equivalences, limitations, and open problems.
+
 - [ ] Extract structured knowledge from the papers.
   Go beyond metadata by collecting the main definitions, methods, assumptions,
   and theoretical results from each paper. For example: definitions of model
